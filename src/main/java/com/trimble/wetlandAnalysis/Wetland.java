@@ -135,12 +135,6 @@ public class Wetland {
 		readInput(s);
 	}
 
-	// Main work is done here. This is a type of BFS for disconnected components.
-	// We will traverse through the "Graph" giving the same color to all connected
-	// components.
-	// We will keep track of how many nodes each component has, and this will be the
-	// final area.
-
 	/**
 	 * The main core logic. Judging by quere. We will traverse and check how many
 	 * nodes Visit all coordinates and find arable land area.
